@@ -7,7 +7,7 @@ const handleCopy = input => {
 	console.log(matches);
 	
 	if(!matches) {
-		formMessage.innerHTML = "No links found";
+		formMessage.innerHTML = "No links found!";
 		return;
 	}
 	input.value = matches[1];
