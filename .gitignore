@@ -4,3 +4,4 @@ public/styles.css
 public/app.js
 public/app.js.map
 .sass-cache
+src/_compiled/style--sass.css
