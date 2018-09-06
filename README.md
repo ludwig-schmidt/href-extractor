@@ -7,4 +7,4 @@ This app extracts the target of a link from a inserted html structure.
 To coninue building run 
 `npm install`
 and than 
-`grunt`
+`grunt
