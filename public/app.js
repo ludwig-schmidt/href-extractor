@@ -1,2 +1,0 @@
-'use strict';var showFormMessage=function showFormMessage(message){document.querySelector('.form__message').innerHTML=message};document.querySelector('.form__submit').addEventListener('click',function(e){var input=document.querySelector('.form__input');e.preventDefault();var matches=input.value.match(/(?:href=")([^\'\"]+)/);if(!matches){showFormMessage('No links found!');return}input.value=matches[1];input.select();document.execCommand('copy');showFormMessage('Copied to clipboard')});
-//# sourceMappingURL=app.js.map
