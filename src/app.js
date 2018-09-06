@@ -13,7 +13,7 @@ document.querySelector('.form__submit').addEventListener('click', e => {
 
 	// display error message when no link was found and stop execution
 	if(!matches) {
-		showFormMessage("No links found!");
+		showFormMessage("Es wurde kein Link gefunden😢");
 		return;
 	}
 	
@@ -23,5 +23,5 @@ document.querySelector('.form__submit').addEventListener('click', e => {
 	// copy generated link to clipboard and display success message
 	input.select();
 	document.execCommand('copy');
-	showFormMessage("Copied to clipboard");
+	showFormMessage("Link wurde in die Zwischenablage kopiert👌");
 });
